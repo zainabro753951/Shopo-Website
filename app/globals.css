@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#hover:hover #hoverable{
+    height: 100%;
+}
+#core{
+    background: linear-gradient(to top, #EFF0F1, transparent);
+    padding: 20px 30px;
+}
+#featurebox{
+    box-shadow: 0 0 80px rgb(215, 215, 215);
+    transition: all 0.5s ease-in-out;
+}
+#featurebox:hover{
+    box-shadow: 0 0 100px rgb(157, 157, 157);
+}
